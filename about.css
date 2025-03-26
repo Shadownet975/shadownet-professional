@@ -3,3 +3,10 @@
   margin: 0;
   box-sizing: border-box;
 }
+.aboutcontainer {
+  background: linear-gradient(to bottom, #500073, #2a004e, #c62300, #f14a00);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80dvh;
+}
