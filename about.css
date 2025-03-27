@@ -10,3 +10,33 @@
   align-items: center;
   height: 80dvh;
 }
+/* responsivenes */
+@media screen and (max-width: 768px) {
+  .home {
+    flex-direction: column;
+    height: auto;
+    padding: 10px 0;
+  }
+  a {
+    font-size: 18px;
+    padding: 5px;
+  }
+  .aboutcontainer {
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 20px;
+  }
+  h1 {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    max-width: 70dvw;
+  }
+  img {
+    height: 40vh;
+    width: 60%;
+  }
+  .footer {
+    flex-direction: column;
+    text-align: center;
+  }
+}
