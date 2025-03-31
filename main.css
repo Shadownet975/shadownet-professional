@@ -23,11 +23,11 @@ a:hover {
 }
 .footer {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  background-color: #f1480094;
+  background-color: white;
   height: 60px;
-  color: white;
+  color: red;
   margin-top: auto;
 }
 .footerr {
@@ -63,7 +63,7 @@ h1 {
 }
 .an {
   font-size: 20px;
-  color: white;
+  color: red;
 }
 /* responsivenes */
 @media screen and (max-width: 768px) {
