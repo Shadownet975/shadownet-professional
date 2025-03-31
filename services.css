@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 .servicecontainer {
-  background: linear-gradient(to top, #500073, #f14a00);
+  background: linear-gradient(to top, #316c40, #e2f87b);
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -23,7 +23,8 @@
   .servicecontainer {
     flex-direction: column-reverse;
     text-align: center;
-    height: auto;
+    gap: 0.5rem;
+    padding: 20px;
   }
   h1 {
     font-size: 1.5rem;
@@ -31,7 +32,8 @@
     max-width: 70dvw;
   }
   img {
-    width: 60%;
+    height: 35vh;
+    width: 80%;
   }
   .footer {
     flex-direction: column;

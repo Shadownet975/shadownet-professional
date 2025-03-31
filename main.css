@@ -50,7 +50,7 @@ img {
   justify-content: space-around;
   align-items: center;
   height: auto;
-  background: linear-gradient(to left, #500073, #2a004e, #c62300);
+  background: linear-gradient(to left, #6656c5, #294e28, #3b8c5e);
 }
 h1 {
   text-align: center;
@@ -78,6 +78,8 @@ h1 {
   .container {
     flex-direction: column-reverse;
     text-align: center;
+    gap: 0.5rem;
+    padding: 20px;
   }
   h1 {
     font-size: 1.5rem;
@@ -85,8 +87,8 @@ h1 {
     max-width: 70dvw;
   }
   img {
-    height: 40vh;
-    width: 60%;
+    height: 35vh;
+    width: 80%;
   }
   .footer {
     flex-direction: column;

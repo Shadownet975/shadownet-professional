@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 .contactcontainer {
-  background: linear-gradient(to bottom, #500073, #2a004e, #f14a00);
+  background: linear-gradient(to bottom, #368c5b, rgba(96, 10, 105, 0.679));
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -15,15 +15,15 @@
   .home {
     flex-direction: column;
     height: auto;
-    padding: 10px 0;
   }
   a {
-    font-size: 18px;
+    font-size: 28px;
     padding: 5px;
   }
   .contactcontainer {
     flex-direction: column-reverse;
     text-align: center;
+    gap: 0.5rem;
     padding: 20px;
   }
   h1 {
@@ -32,8 +32,8 @@
     max-width: 70dvw;
   }
   img {
-    height: 40vh;
-    width: 60%;
+    height: 35vh;
+    width: 80%;
   }
   .footer {
     flex-direction: column;
