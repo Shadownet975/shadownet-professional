@@ -49,7 +49,7 @@ img {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 80dvh;
+  height: auto;
   background: linear-gradient(to left, #500073, #2a004e, #c62300);
 }
 h1 {
@@ -70,16 +70,14 @@ h1 {
   .home {
     flex-direction: column;
     height: auto;
-    padding: 10px 0;
   }
   a {
-    font-size: 18px;
+    font-size: 28px;
     padding: 5px;
   }
   .container {
     flex-direction: column-reverse;
     text-align: center;
-    padding: 20px;
   }
   h1 {
     font-size: 1.5rem;
